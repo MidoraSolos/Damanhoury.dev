@@ -1,0 +1,31 @@
+.Navbar_color {
+	/* background-color: rgb(3, 0, 5); */
+}
+.navbar-dark .navbar-brand {
+	color: red !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	background-color: rgb(3, 0, 5) !important;
+	border-color: rgb(148, 5, 5) !important;
+}
+Link {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: rgb(148, 5, 5) !important;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out;
+}
+div a {
+	color: red;
+	text-decoration: none;
+}
+div a:hover {
+	color: rgb(148, 5, 5);
+	text-decoration: none;
+}
+.nav-link:hover {
+	color: rgb(148, 5, 5) !important;
+}
