@@ -17,6 +17,12 @@ const Projects = (props) => {
 				btnLink="https://calculator-w9ployymh-midorasolos.vercel.app/"
 				text="A calculator that uses the reducer hook and React components to make accurate mathmatical calculations"
 			/>
+			<CustomCard
+				imgUrl="LandingPage.png"
+				title="Landing Page"
+				btnLink="https://sdsu-di-lab-landing-page.vercel.app/"
+				text="Built a landing page for the sdsu di lab internship"
+			/>
 		</div>
 	);
 };
